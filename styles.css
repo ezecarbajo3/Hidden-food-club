@@ -1139,6 +1139,9 @@ main .section:nth-of-type(even) {
     width: 13px;
     height: 13px;
   }
+  #book.section {
+  padding-top: 32px;
+}
 }
 
 @media (max-width: 640px) {
