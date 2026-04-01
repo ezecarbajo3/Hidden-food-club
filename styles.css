@@ -380,7 +380,10 @@ main .section:nth-of-type(even) {
     linear-gradient(180deg, #efe6d8 0%, #e0d3c2 100%) !important;
 }
 
-#menu .eyebrow,
+#menu .eyebrow {
+  color: #243b5a !important;
+}
+
 #menu h2 {
   color: #4a4039 !important;
 }
@@ -398,12 +401,22 @@ main .section:nth-of-type(even) {
 }
 
 #location .eyebrow {
-  color: #e86a1f !important;
+  color: #243b5a !important;
 }
 
 #location h2,
 #location p {
   color: #4a4039 !important;
+}
+#book .book-copy-full h2 {
+  margin-top: 10px;
+  font-size: clamp(3rem, 5vw, 4.6rem);
+  max-width: 1200px;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 700;
+  line-height: 0.95;
+  letter-spacing: -0.02em;
+  color: #f7f0e8;
 }
 
 .card,
