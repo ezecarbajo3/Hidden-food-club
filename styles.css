@@ -667,6 +667,28 @@ main .section:nth-of-type(even) {
   max-width: 920px;
 }
 
+#contact .contact-copy-full {
+  max-width: 860px;
+}
+
+#contact .contact-copy-full h2 {
+  margin-top: 10px;
+  font-size: clamp(3rem, 5vw, 4.6rem);
+  max-width: 1200px;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 700;
+  line-height: 0.95;
+  letter-spacing: -0.02em;
+  color: #f7f0e8;
+}
+
+#contact .contact-copy-full .eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-size: 0.8rem;
+  font-weight: 800;
+}
+
 .contact-cards-two {
   display: flex;
   justify-content: center;
