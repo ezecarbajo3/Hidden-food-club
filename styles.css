@@ -314,7 +314,7 @@ a {
 }
 
 .hero-logo img {
-  width: min(320px, 28vw);
+  width: min(420px, 36vw);
   height: auto;
   object-fit: contain;
   display: block;
