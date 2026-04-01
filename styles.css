@@ -230,13 +230,13 @@ a {
 }
 
 .btn-gold {
-  background: #e86a1f;
-  color: #fbf6ec;
+  background: #243b5a;
+  color: #ffffff;
   box-shadow: 0 14px 30px rgba(20, 10, 7, 0.14);
 }
 
 .btn-gold:hover {
-  background: #d85d18;
+  background: #1b2e47;
   transform: translateY(-1px);
 }
 
@@ -302,7 +302,7 @@ a {
   margin: 18px 0 0;
   font-size: clamp(1.6rem, 2vw, 2.3rem);
   font-weight: 800;
-  color: #e86a1f;
+  color: #243b5a;
   font-style: italic;
 }
 
