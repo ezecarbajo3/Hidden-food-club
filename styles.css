@@ -555,21 +555,20 @@ main .section:nth-of-type(even) {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: min(33vw, 420px);
-  min-width: 280px;
-  min-height: 64px;
-  padding: 0 32px;
+  width: min(43vw, 546px);
+  min-width: 364px;
+  min-height: 83px;
+  padding: 0 42px;
   border-radius: 999px;
   background: #e86a1f;
   color: #ffffff;
-  font-size: 1.1rem;
+  font-size: 1.43rem;
   font-weight: 800;
   text-decoration: none;
   text-align: center;
   box-shadow: 0 14px 30px rgba(20, 10, 7, 0.18);
   transition: 0.25s ease;
 }
-
 .book-cta-btn:hover {
   background: #d85d18;
   transform: translateY(-1px);
