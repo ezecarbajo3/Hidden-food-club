@@ -612,7 +612,7 @@ main .section:nth-of-type(even) {
 .review-card strong {
   display: block;
   margin-top: 18px;
-  color: var(--gold-strong);
+  color: #f7f0e8;
 }
 
 /* LOCATION */
