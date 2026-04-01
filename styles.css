@@ -720,7 +720,7 @@ main .section:nth-of-type(even) {
 
 /* FLOATING BUTTONS */
 
-.whatsapp-float,
+.instagram-float,
 .maps-float {
   position: fixed;
   bottom: 28px;
@@ -738,10 +738,10 @@ main .section:nth-of-type(even) {
   box-shadow: 0 10px 20px rgba(15, 32, 17, 0.24);
 }
 
-.whatsapp-float {
+.instagram-float {
   right: 28px;
-  background: #60d669;
-  color: #102513;
+  background: #7c3aed;
+  color: #ffffff;
 }
 
 .maps-float {
@@ -749,7 +749,6 @@ main .section:nth-of-type(even) {
   background: #ffffff;
   color: #1f1f1f;
 }
-
 .float-icon,
 .float-icon svg {
   display: inline-flex;
@@ -1066,23 +1065,22 @@ main .section:nth-of-type(even) {
     font-size: 1.4rem;
   }
 
-  .whatsapp-float,
-  .maps-float {
-    min-height: 39px;
-    padding: 0 14px;
-    font-size: 0.775rem;
-  }
+  .instagram-float,
+.maps-float {
+  min-height: 39px;
+  padding: 0 14px;
+  font-size: 0.775rem;
+}
 
-  .whatsapp-float {
-    right: 18px;
-    bottom: 18px;
-  }
+.instagram-float {
+  right: 18px;
+  bottom: 18px;
+}
 
-  .maps-float {
-    left: 18px;
-    bottom: 18px;
-  }
-
+.maps-float {
+  left: 18px;
+  bottom: 18px;
+}
   .float-icon,
   .float-icon svg {
     width: 13px;
